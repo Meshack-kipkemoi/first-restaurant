@@ -1,4 +1,3 @@
-import React from "react";
 import gallery from "../../../public/chickencurry.jpg";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";

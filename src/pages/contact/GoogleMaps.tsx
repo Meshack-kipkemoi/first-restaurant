@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { Card, CardContent } from "@/components/ui/card";
 

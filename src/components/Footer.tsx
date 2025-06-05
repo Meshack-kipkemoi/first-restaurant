@@ -1,9 +1,7 @@
-import React from "react";
 import { Phone, MapPin, Mail, Clock } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/logo.png";
-import { time } from "console";
 
 const FooterContact = [
   { icon: MapPin, text: "123 Karen Rd, Nairobi" },

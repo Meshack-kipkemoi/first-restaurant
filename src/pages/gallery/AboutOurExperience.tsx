@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutOurExperience = () => {
   return (
     <section className="py-16 bg-smooth">

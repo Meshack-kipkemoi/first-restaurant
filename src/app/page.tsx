@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "@/pages/home/Hero";
 import AboutUs from "@/pages/home/AboutUs";
 import Menu from "@/pages/home/Menu";

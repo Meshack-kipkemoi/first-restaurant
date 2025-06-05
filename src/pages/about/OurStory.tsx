@@ -1,6 +1,4 @@
-import React from "react";
 import Image from "next/image";
-import Food from "../../../public/homepage.jpg";
 
 const OurStory = () => {
   return (
@@ -32,10 +30,11 @@ const OurStory = () => {
           {/* Image Section */}
           <div>
             <Image
-              src={Food}
+              src="/homepage.jpg"
+              width={1080}
+              height={720}
               alt="Chef preparing Indian food"
-              className="w-full h-auto rounded-lg shadow-lg object-cover"
-              placeholder="blur"
+              className="h-auto rounded-lg object-cover w-full aspect-16/9"
             />
           </div>
         </div>

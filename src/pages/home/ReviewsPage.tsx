@@ -20,21 +20,21 @@ const ReviewsPageData: ReviewsPageDatatypes[] = [
     icon: Star,
     name: "Marcus L.",
     review:
-      "This is my fourth visit, and it keeps getting better. The consistency, the warmth, the spices — everything hits just right. I brought my parents this time, and even my picky dad couldn’t stop raving about the naan. 10/10, every time.",
+      "This is my fourth visit, and it keeps getting better. The consistency, the warmth, the spices — everything hits just right. I brought my parents this time, and even my picky dad couldn&rsquo;t stop raving about the naan. 10/10, every time.",
     identity: "First-Time Visitor",
   },
   {
     icon: Star,
     name: "Olivia R.",
     review:
-      "A hidden gem! Every bite tasted like someone’s grandmother made it with love. The lamb biryani was melt-in-your-mouth perfect, and the saffron chai? I’m still dreaming about it.",
+      "A hidden gem! Every bite tasted like someone&rsquo;s grandmother made it with love. The lamb biryani was melt-in-your-mouth perfect, and the saffron chai? I&rsquo;m still dreaming about it.",
     identity: "Food Enthusiast & Blogger",
   },
   {
     icon: Star,
     name: "Aisha K.",
     review:
-      "Wasn’t sure what to expect, but wow. The staff treated us like family, and the food was next-level. My only regret? Not coming here sooner.",
+      "Wasn&rsquo;t sure what to expect, but wow. The staff treated us like family, and the food was next-level. My only regret? Not coming here sooner.",
     identity: "Regular Customer",
   },
 ];
@@ -47,7 +47,8 @@ const ReviewsPage = () => {
       <Header>
         <Heading className="text-black">What Our Guests Say</Heading>
         <Paragraph className="text-center text-black">
-          Don't just take our word for it — hear from our satisfied customers.
+          Don&apos;t just take our word for it — hear from our satisfied
+          customers.
         </Paragraph>
       </Header>
 
@@ -58,12 +59,12 @@ const ReviewsPage = () => {
               {Array.from({ length: number }).map((_, i) => (
                 <item.icon
                   key={i}
-                  className="w-4 h-4 fill-current  text-yellow-500"
+                  className="w-4 h-4 fill-current text-yellow-500"
                 />
               ))}
             </CardHeader>
             <CardContent className="text-sm text-black">
-              "{item.review}"
+              &ldquo;{item.review}&rdquo;
             </CardContent>
             <CardFooter className="flex flex-col items-start">
               <h3 className="font-semibold text-black">{item.name}</h3>

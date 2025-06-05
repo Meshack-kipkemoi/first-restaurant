@@ -1,5 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-import { Flame, Leaf } from "lucide-react";
 import Hero from "@/pages/menu/Hero";
 import Menu from "@/pages/menu/Menu";
 import Acknowledgement from "@/pages/menu/Acknowledgement";

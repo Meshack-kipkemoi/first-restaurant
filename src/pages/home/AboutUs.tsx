@@ -6,7 +6,6 @@ import {
   Header,
   Section,
 } from "@/components/picture-text";
-import Ingredients from "../../../public/ingredients.webp";
 import { Button } from "@/components/ui/button";
 
 const AboutUs = () => {
@@ -35,8 +34,10 @@ const AboutUs = () => {
         </div>
         <div>
           <Image
-            src={Ingredients}
+            src={"/ingredients.webp"}
             alt="Ingredients"
+            width={720}
+            height={720}
             className="w-full h-full object-cover"
           />
         </div>

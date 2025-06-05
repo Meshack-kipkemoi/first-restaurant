@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import indianfood from "../../../public/indianfood.webp";
 
@@ -10,7 +9,7 @@ const Hero = () => {
         <Image
           src={indianfood}
           alt="tomatoes"
-          className="relative object-cover"
+          className="relative w-full object-cover"
         />
         <div className="container absolute mx-auto px-4 text-center">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold text-white mb-4">

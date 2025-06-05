@@ -1,14 +1,10 @@
-import React from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
-import First from "../../../public/chef1.jpg";
-import Second from "../../../public/chef2.jpg";
-import Third from "../../../public/chef3.jpg";
 type RestaurantDatatypes = {
   name: string;
   job: string;
   skills: string;
-  src: StaticImageData;
+  src: string;
 };
 const RestaurantData: RestaurantDatatypes[] = [
   {
@@ -16,21 +12,21 @@ const RestaurantData: RestaurantDatatypes[] = [
     job: "Head Chef & Owner",
     skills:
       "With over 20 years of culinary experience, Chef Rajesh brings authentic Indian flavors to every dish.",
-    src: Third,
+    src: "chef1.jpg",
   },
   {
     name: "Chef Priya Sharma",
     job: "Sous Chef",
     skills:
       " Specializing in vegetarian cuisine and traditional tandoorcooking techniques.",
-    src: Second,
+    src: "chef2.jpg",
   },
   {
     name: "Sarah Wanjiku",
     job: "Restaurant-Manager",
     skills:
       " Ensuring every guest receives exceptional service and a memorable dining experience.",
-    src: First,
+    src: "chef3.jpg",
   },
 ];
 
@@ -54,7 +50,7 @@ const Team = () => {
               <Card className="border-warm-200 bg-warm-50" key={index}>
                 <CardContent className="p-6 text-center">
                   <Image
-                    src={item.src}
+                    src={`/${item.src}`}
                     width={720}
                     height={720}
                     alt="Head Chef"
