@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { Header, Heading, Paragraph, Section } from "@/components/picture-text";
 import Link from "next/link";

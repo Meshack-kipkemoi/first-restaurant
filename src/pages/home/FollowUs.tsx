@@ -9,14 +9,17 @@ import {
 } from "@/components/ui/carousel";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+
 const FollowUs = () => {
   return (
     <Section className="items-center">
       <Header>
         <Heading>Follow Us</Heading>
-        <Paragraph>Follow us to get the latest update on what's new</Paragraph>
+        <Paragraph>
+          Follow us to get the latest update on what&apos;s new
+        </Paragraph>
       </Header>
-      <div className="relative  mx-auto">
+      <div className="relative mx-auto">
         <Carousel>
           <CarouselContent>
             {Array.from({ length: 4 }, (_, i) => (

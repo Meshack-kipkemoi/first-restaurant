@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Table from "../../../public/tomatoes.jpg";
 

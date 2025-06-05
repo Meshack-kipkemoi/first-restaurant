@@ -2,9 +2,10 @@ import Link from "next/link";
 import { Header, Heading, Paragraph, Section } from "@/components/picture-text";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 interface Contact {
-  icon: any;
+  icon: LucideIcon;
   header: string;
   content: string;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import { Heart, Users, Award, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 const values = [

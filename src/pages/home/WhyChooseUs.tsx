@@ -1,12 +1,7 @@
 import React, { SVGProps } from "react";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Award, Star, Clock, Users } from "lucide-react";
-import { Paragraph, Header, Heading, Section } from "@/components/picture-text";
+import { Header, Heading, Section } from "@/components/picture-text";
 
 type WhyChooseUsItem = {
   icon: (props: SVGProps<SVGSVGElement>) => React.ReactNode;

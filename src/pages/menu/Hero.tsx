@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Tomatoes from "../../../public/good_food.jpg";
 const Hero = () => {

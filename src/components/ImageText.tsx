@@ -1,23 +1,23 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { Button } from "./ui/button";
 
 type ImageTextProps = {
-  ImageSrc: StaticImageData;
+  src: string;
   Header: string;
   Text: string;
 };
 
-const ImageText = ({ ImageSrc, Header, Text }: ImageTextProps) => {
+const ImageText = ({ src, Header, Text }: ImageTextProps) => {
   return (
     <section className="relative w-full aspect-[9/16] md:aspect-[4/3] lg:aspect-video overflow-hidden">
       {/* Background Image */}
       <Image
-        src={ImageSrc}
+        src={src}
         alt={Header}
-        fill
+        width={720}
+        height={720}
         priority
-        className="object-cover"
-        placeholder="blur"
+        className="w-full object-cover"
       />
 
       {/* Overlay */}
