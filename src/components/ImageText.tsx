@@ -17,7 +17,7 @@ const ImageText = ({ src, Header, Text }: ImageTextProps) => {
         width={720}
         height={720}
         priority
-        className="w-full object-cover"
+        className="w-full object-cover h-full"
       />
 
       {/* Overlay */}
